@@ -1,6 +1,6 @@
-/// Copied from the Rust sources.
-///
-/// Reference: https://github.com/rust-lang/rust/blob/75cf41afb468152611212271bae026948cd3ba46/src/libstd/sys/unix/os.rs
+// Copied from the Rust sources.
+//
+// Reference: https://github.com/rust-lang/rust/blob/75cf41afb468152611212271bae026948cd3ba46/src/libstd/sys/unix/os.rs
 extern "C" {
     #[cfg(not(target_os = "dragonfly"))]
     #[cfg_attr(
