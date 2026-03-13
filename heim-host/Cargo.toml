@@ -22,7 +22,7 @@ libc = "^0.2"
 [dev-dependencies]
 heim-derive = { version = "0.1.0-rc.1", path = "../heim-derive" }
 futures = "^0.3"
-smol = "^1.2"
+smol.workspace = true
 version-sync = "0.9"
 
 [target.'cfg(target_os = "macos")'.dependencies]

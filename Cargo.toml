@@ -37,3 +37,4 @@ members = [
 
 [workspace.dependencies]
 mach = { package = "mach2", version = "0.5.0" }
+smol = "2.0.2"
